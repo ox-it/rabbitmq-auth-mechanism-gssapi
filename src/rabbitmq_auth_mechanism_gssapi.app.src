@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, rabbitmq_auth_mechanism_gssapi,
+ [{description, "RabbitMQ Kerberos authentication (SASL GSSAPI)"},
+  {vsn, ""},
+  {modules, []},
+  {registered, []},
+  {mod, {rabbit_auth_mechanism_gssapi_app, []}},
+  {env, [{name_from, distinguished_name}] },
+  {applications, [kernel, stdlib]}]}.

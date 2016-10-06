@@ -1,6 +1,6 @@
-PROJECT = rabbitmq_auth_mechanism_ssl
+PROJECT = rabbitmq_auth_mechanism_gssapi
 
-DEPS = amqp_client
+DEPS = amqp_client #egssapi
 
 DEP_PLUGINS = rabbit_common/mk/rabbitmq-plugin.mk
 

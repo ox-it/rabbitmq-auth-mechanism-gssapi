@@ -14,7 +14,7 @@
 %% Copyright (c) 2007-2016 Pivotal Software, Inc.  All rights reserved.
 %%
 
--module(rabbit_auth_mechanism_ssl_app).
+-module(rabbit_auth_mechanism_gssapi_app).
 
 -behaviour(application).
 -export([start/2, stop/1]).
